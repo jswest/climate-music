@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Climate Music</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1.0; user-scalable=no"
+		/>
+	</head>
+	<body>
+		<div id="guts">
+			<header id="persist">
+				<h1 id="persist-title">CLIMATE MUSIC</h1>
+				<ul>
+					<li id="song-li">Song</li>
+					<li id="explanation-li">Explanation</li>
+					<li id="about-li">About</li>
+				</ul>
+			</header>
+			<div id="background"></div>
+			<div id="circle"></div>
+			<h1 id="year"></h1>
+			<div id="canvas">
+				<div id="title">
+					<h1>CLIMATE MUSIC // JOHN WEST</h1>
+					<h1 class="here">CLICK HERE TO CONTINUE</h1>
+					<h1 class="mobile">
+						ALAS, THIS DOES NOT WORK RELIABLY ON MOBILE
+					</h1>
+				</div>
+				<div class="wrapper">
+					<div id="text-1">
+						<p>
+							This project represents climate data as music.
+							Different facets of the climate are encoded as
+							different musical insturments. Go ahead and turn
+							your sound on.
+						</p>
+					</div>
+					<div id="text-2">
+						<p>
+							Temperature is encoded in the music in a few ways.
+							First, we have the tenor line, which takes the range
+							of temperatures from 1918 through 2018, breaks them
+							into five equal parts, and makes them sound like
+							this scale.
+						</p>
+					</div>
+					<div id="text-3">
+						<p>
+							Next, we have the basso continuo—the chords and bass
+							note—which takes the same range of temperatures from
+							1918 through 2018, breaks them into five equal
+							parts, and makes them sound like this common chord
+							progression.
+						</p>
+					</div>
+					<div id="text-4">
+						<p>
+							Finally, for arctic ice data—area and extent—we have
+							two additional insturments. You will hear them come
+							in at the end, and they break arctic ice data into
+							seven equal parts.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="about">
+			<div class="wrapper">
+				<p>
+					<span class="name">John West</span> is a technogist and
+					writer, currently working in the R&D Lab of the Wall Street
+					Journal. He holds a B.A. in philosophy and a Performance
+					Degree in Historical Performance from Oberlin College and
+					Conservatory, and he recieved his MFA in writing from the
+					Bennington Writing Seminars. He lives in Boston with his
+					partner, daughter, and cat.
+				</p>
+				<p>
+					<span class="name">Climate Music</span> relies on data from
+					NASA,
+					<a
+						href="https://climate.nasa.gov/vital-signs/arctic-sea-ice/"
+						>here</a
+					>
+					and
+					<a
+						href="https://climate.nasa.gov/vital-signs/global-temperature/"
+						>here</a
+					>. It uses two excellent libraries,
+					<a href="https://d3js.org/">D3</a> and
+					<a href="https://tonejs.github.io/">Tone</a>, to do what it
+					does. It was created in 2020.
+				</p>
+			</div>
+		</div>
+		<script src="tone.js"></script>
+		<script src="d3.min.js"></script>
+		<script src="frames.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
